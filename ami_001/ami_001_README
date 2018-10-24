@@ -1,0 +1,62 @@
+DESCRIPTION OF DATA 
+===================
+OBSERVATION 1 IN THE APT FILE
+Target: Binary point source
+        A0V star with K magnitude 7.5 and a faint companion with contrast difference
+	of 8.5 magnitudes. (This is a dummy magnitude and does not match the actual
+	magnitude of 2MASS J23062928-0502285.
+
+target_pos11_uncal.fits
+target_pos12_uncal.fits
+target_pos13_uncal.fits
+target_pos14_uncal.fits
+target_pos15_uncal.fits
+target_pos21_uncal.fits
+target_pos22_uncal.fits
+target_pos23_uncal.fits
+target_pos24_uncal.fits
+target_pos25_uncal.fits
+
+
+OBSERVATION 2 IN THE APT FILE
+
+This observation has an Aperture PA offset of 8.75 degrees from Observation 1.
+(See Deepashri's email from Tuesday, June 13, 2017 2:38 PM to understand how this
+was done.)
+
+target_pa_offset_pos11_uncal.fits
+target_pa_offset_pos12_uncal.fits
+target_pa_offset_pos13_uncal.fits
+target_pa_offset_pos14_uncal.fits
+target_pa_offset_pos15_uncal.fits
+target_pa_offset_pos21_uncal.fits
+target_pa_offset_pos22_uncal.fits
+target_pa_offset_pos23_uncal.fits
+target_pa_offset_pos24_uncal.fits
+target_pa_offset_pos25_uncal.fits
+
+OBSERVATION 3 in the APT FILE
+
+cal_pos11_uncal.fits
+cal_pos12_uncal.fits
+cal_pos13_uncal.fits
+cal_pos14_uncal.fits
+cal_pos15_uncal.fits
+cal_pos21_uncal.fits
+cal_pos22_uncal.fits
+cal_pos23_uncal.fits
+cal_pos24_uncal.fits
+cal_pos25_uncal.fits
+
+
+Rob_AMI_DT.aptx: APT file for the simulations
+
+ami_aperturePAoffset.png: This shows how Observation 2 was rotated with respect to
+                          Bbservation 1. The radial separation of faint companion
+			  displayed in this figure is much larger than the separation
+			  in the simulated data.
+
+COMMENTS:
+[1]Noise sources in the simulated data: read noise, poisson noise, dark current,
+   background
+[2]Aperture PA Offset related keywords are not added to file headers
